@@ -1,4 +1,4 @@
 {
-  "production": "",
+  "production": "http://medportal-backend.vercel.app",
   "development": "http://localhost:3000"
 }
