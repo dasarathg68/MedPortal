@@ -7,12 +7,4 @@ export default defineConfig({
   define: {
     global: {},
   },
-  build: {
-    rollupOptions: {
-      external: ["@aws-sdk/client-s3"],
-    },
-  },
-  optimizeDeps: {
-    include: ["@aws-sdk/client-s3"],
-  },
 });
